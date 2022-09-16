@@ -5,18 +5,19 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
+
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/ivCapture"
-        android:layout_width="386dp"
-        android:layout_height="532dp"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
         android:padding="30dp" />
 
     <TextView
         android:id="@+id/responseText"
         android:layout_width="411dp"
-        android:layout_height="47dp"
+        android:layout_height="44dp"
         android:gravity="center"
         android:textAlignment="center"
         android:textSize="23sp"
@@ -24,7 +25,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="96dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -32,15 +33,18 @@
             android:id="@+id/btnCapture"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#03A9F4"
+            android:backgroundTint="#80878A"
+
+
             android:text="촬영하기" />
 
         <Button
             android:id="@+id/btnSave"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#03A9F4"
+            android:backgroundTint="#80878A"
             android:text="결과보기" />
+
     </LinearLayout>
 
 </LinearLayout>
